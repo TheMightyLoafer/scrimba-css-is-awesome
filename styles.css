@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    color: #2e354f;
+}
+
+/* Typography */
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 24px;
+    color: #2e354f;
+}
+
+a {
+    color: #ef5839;
+}
+
+a:hover,
+a:focus {
+    background: #d4b44c;
+}
+
+/* buttons */
+.btn {
+    padding: 10px 25px;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 25px; 
+}
+
+.btn-contact {
+    background: #ef5839;
+    color: #fff;
+}
+
+.btn-info {
+    background: #fff;
+    color: #2e354f;
+}
+
+.btn:hover,
+.btn:focus {
+    color: #2e354f;
+    background: #d4b44c;
+}
+
+/* Layout */
+
+.page-header {
+    background: #2e354f;
+    overflow: hidden;
+    padding: 45px 0;
+    margin: 0 auto;
+}
+
+
+.text-white {
+    color: white;
+}
+
+section {
+    padding: 45px 0;
+}
+
+.container {
+    width: 620px;
+    margin: 0 auto;
+}
+
+.section-title {
+    color: #ef5839;
+}
+
+.emphasis {
+    font-weight: 900;
+}
+
+.section-2 {
+    background: #2e354f;
+}
+
+.section-1 > p {
+    color: #2e354f;
+}
+
+.section-2 p {
+    color: white;
+}
+
